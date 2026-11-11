@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="colour.css">
+  <title>Grand horizon Hotel | Reserve your stay</title>
+</head>
+<body>
+    <nav>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9660;</button>
+      <ul>
+        <li><a href="Hotel.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  <header class="nav">
+    <div class="logo"><span>G</span>Grand horizon</div>
+    <a href="tel:+2347044488768">Reservations&nbsp; · &nbsp;+2347044488768</a>
+  </header>
+  <section class="hero">
+    <div class="hero-inner">
+    <div class="eyebrow">A slower kind of getaway</div>
+    <h1>Make room for a little wonder.</h1>
+    <p>Thoughtful hospitality, quiet comforts, and a place that feels like yours.</p></div>
+  </section>
+  <main><section class="card" aria-label="Hotel reservation">
+    <div class="form">
+        <div class="heading"><div><div class="eyebrow" style="color:#9a805b">Your next escape</div>
+        <h2>Reserve your stay</h2>
+        <p>Choose your dates and we’ll take care of the rest.</p>
+    </div>
+    <div class="secure">▣ &nbsp;Secure booking</div></div>
+      <form id="booking">
+        <div class="fields">
+          <div><label for="checkin">Check-in</label><input id="checkin" name="checkin" type="date" required></div>
+          <div><label for="checkout">Check-out</label><input id="checkout" name="checkout" type="date" required></div>
+          <div class="field full">
+            <label for="room">Room preference</label>
+            <select id="room">
+                <option>Garden King — $189 / night</option>
+                <option>Classic Queen — $159 / night</option>
+                <option>Rowan Suite — $269 / night</option>
+            </select>
+          </div>
+          <div class="field full">
+            <div class="people">
+              <div>
+                <label for="adults">Adults</label>
+                <select id="adults">
+                  <option>1 adult</option>
+                  <option selected>2 adults</option>
+                  <option>3 adults</option>
+                  <option>4 adults</option>
+                </select>
+              </div>
+              <div>
+                <label for="children">Children</label>
+                <select id="children">
+                  <option selected>0 children</option>
+                  <option>1 child</option>
+                  <option>2 children</option>
+                  <option>3 children</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="note">No payment needed to check availability. Free cancellation up to 48 hours before arrival.</p>
+        <button class="submit" type="submit">CHECK AVAILABILITY &nbsp; →</button>
+        <div id="message" class="message" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+    <aside>
+        <p class="tag">A guest favorite</p>
+        <div class="room-img" role="img" aria-label="A warm and comfortable hotel guest room"></div>
+        <h3>Garden King</h3>
+        <p class="details">King bed · Garden view · 2 guests · 310 sq ft</p>
+        <ul class="perks">
+            <li>Breakfast included</li>
+            <li>Free Wi-Fi</li>
+            <li>Flexible check-in</li>
+        </ul>
+        <div class="price">
+            <span>Room rate</span>
+            <strong>$189 / night</strong>
+        </div>
+        <div class="price">
+            <span>Taxes &amp; fees</span>
+            <strong>At checkout</strong>
+        </div>
+        <div class="price total">
+            <span>From</span>
+            <strong>$189 <small style="font:11px Arial">/ night</small></strong>
+        </div>
+        <p class="tax">Best rate guaranteed when you book direct.</p>
+    </aside>
+  </section>
+  <div class="trust">
+    <span><b>✳</b>Best rate guaranteed</span>
+    <span><b>✓</b>No booking fees</span>
+    <span><b>♡</b>Personal service</span>
+  </div>
+</main>
+  <footer>Grand horizon Hotel &nbsp;·&nbsp; A place to feel at home</footer>
+  <script src="built.js"></script>
+</body>
+</html>
