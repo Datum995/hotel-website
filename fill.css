@@ -229,8 +229,7 @@ nav{
 }
 
 nav button.menu-toggle{
-  position: absolute;
-  right: 0;
+  margin-left: auto
 }
 
 nav a{
